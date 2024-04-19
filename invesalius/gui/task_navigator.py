@@ -1714,9 +1714,9 @@ class ControlPanel(wx.Panel):
         self.UpdateToggleButton(self.target_mode_button, pressed)
         
         Publisher.sendMessage('Set target mode', enabled=pressed)
-        if pressed:
+        #if pressed:
             # Set robot objective to NONE when target mode is disabled.
-            self.robot.SetObjective(RobotObjective.NONE)
+            #self.robot.SetObjective(RobotObjective.NONE)
 
     # Robot-related buttons
 

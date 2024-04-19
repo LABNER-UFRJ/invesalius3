@@ -722,7 +722,7 @@ DEBUGTRACKAPPROACH = 10
 DEFAULT_TRACKER = SELECT
 
 NDICOMPORT = b'COM1'
-NDI_IP = ['P9-13715.local', 'P9-13719.local']
+NDI_IP = ['P9-13715.local', 'P9-13717.local', 'P9-13719.local']
 
 TRACKERS = [_("Claron MicronTracker"),
            _("Polhemus FASTRAK"), _("Polhemus ISOTRAK II"),
@@ -867,8 +867,8 @@ EFIELD_ROI_SIZE = 20
 # on slower machines. The values are in seconds.
 #
 # Please do not set these to a lower value than 0.1 seconds; it will cause freezing on slower computers.
-SLEEP_NAVIGATION = 0.1
-SLEEP_COORDINATES = 0.1
+SLEEP_NAVIGATION = 0.07
+SLEEP_COORDINATES = 0.07
 
 BRAIN_OPACITY = 0.6
 N_CPU = psutil.cpu_count()
